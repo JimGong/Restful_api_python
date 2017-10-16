@@ -22,7 +22,7 @@ After you `cd` to your cloned GitHub repo, execute `./app_projects.py` to start 
 
 If terminal shows such error: "./app_projects.py: flask/bin/python: bad interpreter: Operation not permitted", run this command line:
 ```
-xattr -d com.apple.quarantine app_projects.py
+$ xattr -d com.apple.quarantine app_projects.py
 ```
 
 Execute the test suite using `python test.py`.
